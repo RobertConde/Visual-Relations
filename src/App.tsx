@@ -46,6 +46,12 @@ function App() {
                 {relations.elements.slice(0, 100)
                     .map((rel, rel_ind) => <>[{rel_ind + 1}] {rel.toString()}<br/></>)}
             </div>
+
+            <div className={"mt-8"}>
+                <h1>
+                    <i>Made with ❤️ by Robert Conde</i>
+                </h1>
+            </div>
         </div>
     );
 }
